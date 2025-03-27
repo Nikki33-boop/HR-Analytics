@@ -1,2 +1,2 @@
 # HR-Analytics
-My SQL portfolio showcasing Data Analytics Projects
+Portfolio showcasing Data Analytics Projects
