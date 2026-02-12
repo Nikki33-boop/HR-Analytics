@@ -1,0 +1,30 @@
+What This Dataset Is About
+In the U.S., the Senate votes on proposed laws (called bills).
+For a bill to pass the Senate, it needs a majority vote (more than half of Senators voting “Yes”).
+
+Every vote is recorded publicly. These are called roll call votes.
+The data contains the voting records from the 114th Senate.
+
+What Each Row and Column Means
+Each row = one Senator
+Each column (like 00001, 00004, etc.) = one bill that was voted on
+
+What the Numbers Mean
+Inside the table:
+1 → Senator voted Yes
+0 → Senator voted No
+0.5 → Senator abstained (did not vote Yes or No)
+
+Other Important Columns
+
+name → The Senator’s name
+party → The Senator’s political party
+D = Democrat
+R = Republican
+I = Independent
+
+Why This Is Useful for Clustering
+Since each Senator has a pattern of Yes/No votes:
+Senators who vote similarly will have similar numbers.
+Clustering can group Senators based on how they vote.
+This may show political groupings or voting behavior patterns.
